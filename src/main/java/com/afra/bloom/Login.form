@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3" />
+    <Property name="title" type="java.lang.String" value="BloomDesk - Login" />
+    <Property name="resizable" type="boolean" value="false" />
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1" />
+    <SyntheticProperty name="generateCenter" type="boolean" value="true" />
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0" />
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true" />
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1" />
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0" />
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2" />
+  </AuxValues>
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" attributes="0" groupAlignment="0">
+        <Component id="pnlMain" attributes="0" min="-2" max="-2" />
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" attributes="0" groupAlignment="0">
+        <Component id="pnlMain" attributes="0" min="-2" max="-2" />
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlMain">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color red="fb" green="f8" blue="f1" type="rgb" />
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="102" attributes="0">
+            <EmptySpace min="-2" pref="44" max="-2" attributes="0" />
+            <Group type="103" attributes="0" groupAlignment="0">
+              <Component id="lblBrand" attributes="0" min="-2" pref="368" max="-2" />
+              <Component id="lblOwner" attributes="0" min="-2" pref="368" max="-2" />
+              <Component id="lblTitle" attributes="0" min="-2" pref="368" max="-2" />
+              <Component id="lblUsername" attributes="0" min="-2" pref="368" max="-2" />
+              <Component id="txtUsername" attributes="0" min="-2" pref="368" max="-2" />
+              <Component id="lblPassword" attributes="0" min="-2" pref="368" max="-2" />
+              <Component id="txtPassword" attributes="0" min="-2" pref="368" max="-2" />
+              <Component id="btnLogin" attributes="0" min="-2" pref="368" max="-2" />
+              <Component id="lblFooter" attributes="0" min="-2" pref="368" max="-2" />
+            </Group>
+            <EmptySpace min="-2" pref="44" max="-2" attributes="0" />
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="102" attributes="0">
+            <EmptySpace min="-2" pref="44" max="-2" attributes="0" />
+            <Group type="102" attributes="0">
+              <Component id="lblBrand" attributes="0" min="-2" max="-2" />
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0" />
+              <Component id="lblOwner" attributes="0" min="-2" max="-2" />
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0" />
+              <Component id="lblTitle" attributes="0" min="-2" max="-2" />
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0" />
+              <Component id="lblUsername" attributes="0" min="-2" max="-2" />
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0" />
+              <Component id="txtUsername" attributes="0" min="-2" pref="42" max="-2" />
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0" />
+              <Component id="lblPassword" attributes="0" min="-2" max="-2" />
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0" />
+              <Component id="txtPassword" attributes="0" min="-2" pref="42" max="-2" />
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0" />
+              <Component id="btnLogin" attributes="0" min="-2" pref="48" max="-2" />
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0" />
+              <Component id="lblFooter" attributes="0" min="-2" max="-2" />
+            </Group>
+            <EmptySpace min="-2" pref="44" max="-2" attributes="0" />
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblBrand">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BloomDesk" />
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Georgia" size="36" style="0" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="28" green="4f" blue="42" type="rgb" />
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0" />
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOwner">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AFRA'S FLORAL STUDIO" />
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="1" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="72" green="5c" blue="50" type="rgb" />
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0" />
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTitle">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Welcome to the order desk" />
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Georgia" size="23" style="0" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="28" green="4f" blue="42" type="rgb" />
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0" />
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblUsername">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Username" />
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="13" style="0" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="72" green="5c" blue="50" type="rgb" />
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUsername">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="" />
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0" />
+            </Property>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="ff" green="ff" blue="ff" type="rgb" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="28" green="4f" blue="42" type="rgb" />
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPassword">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Password" />
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="13" style="0" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="72" green="5c" blue="50" type="rgb" />
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="txtPassword">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="" />
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0" />
+            </Property>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="ff" green="ff" blue="ff" type="rgb" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="28" green="4f" blue="42" type="rgb" />
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnLogin">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sign in" />
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1" />
+            </Property>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="28" green="4f" blue="42" type="rgb" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="ff" green="ff" blue="ff" type="rgb" />
+            </Property>
+            <Property name="focusPainted" type="boolean" value="false" />
+            <Property name="borderPainted" type="boolean" value="false" />
+            <Property name="opaque" type="boolean" value="true" />
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLoginActionPerformed" />
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFooter">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Flowers for the everyday and the extraordinary." />
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="0" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color red="72" green="5c" blue="50" type="rgb" />
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0" />
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

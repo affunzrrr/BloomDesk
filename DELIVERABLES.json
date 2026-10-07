@@ -1,0 +1,18 @@
+{
+  "person": "Afra",
+  "application": "BloomDesk",
+  "scope": "HotelBookingSystemV2-style",
+  "forms": [
+    "Login",
+    "Dashboard",
+    "CustomerProfiles",
+    "Bouquets",
+    "Orders"
+  ],
+  "tables": 4,
+  "reports": 1,
+  "main_class": "com.afra.bloom.App",
+  "jar_sha256": "fec215b4ce05847fb5b38e47ea5cc34e943c729efe7ed87631c16b3f3e62001d",
+  "installer_sha256": "0e01732bc960756ea5a942dc888ed008794a26842ceec196428ab7f9e928bc2b",
+  "verification": "See evidence/verification.md"
+}

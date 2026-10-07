@@ -1,0 +1,10 @@
+target/
+build/
+dist/
+private/
+nbproject/private/
+database.properties
+test-database.properties
+*.log
+.DS_Store
+Thumbs.db

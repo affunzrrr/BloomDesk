@@ -1,0 +1,5 @@
+PASS NetBeans loaded E:/EAD/Afra/src/main/java/com/afra/bloom/Bouquets.form (24 components)
+PASS NetBeans loaded E:/EAD/Afra/src/main/java/com/afra/bloom/CustomerProfiles.form (22 components)
+PASS NetBeans loaded E:/EAD/Afra/src/main/java/com/afra/bloom/Dashboard.form (24 components)
+PASS NetBeans loaded E:/EAD/Afra/src/main/java/com/afra/bloom/Login.form (11 components)
+PASS NetBeans loaded E:/EAD/Afra/src/main/java/com/afra/bloom/Orders.form (24 components)
